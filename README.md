@@ -36,7 +36,7 @@ This project is a task management application that helps users organize their ta
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/naflaashraf/Todo-app.git
+git clone https://github.com/naflaashraf/Todo-apps.git
 ```
 2. Navigate to the project directory:
 
