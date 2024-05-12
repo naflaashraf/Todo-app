@@ -1,0 +1,76 @@
+.sidebar {
+    width: 25%;
+    height: 90vh;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.project-box {
+    width: 100%;
+    border: 1px solid rgb(238, 209, 124);
+    margin-bottom: 10px;
+    margin-left: -1rem;
+    padding: 3px;
+    background-color: rgb(252, 241, 208);
+    font-size: 1rem;
+
+}
+
+.edit {
+    width: 1.5rem;
+    cursor: pointer;
+
+}
+
+button {
+
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+   
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sav-btn {
+    width: 30%;
+    padding: 2px;
+    margin: 1rem;
+}
+
+.icons img {
+    margin-left: 10px;
+   
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todos input {
+    width: 20%;
+    margin: 5px;
+}
+
+.todos {
+    width: 100%;
+    background-color: #f3dcba
+}
+
+@media(max-width:808px) {
+    .sidebar {
+        width: 35%;
+    }
+
+}
+
